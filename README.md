@@ -1,3 +1,7 @@
+# CognitoResourceServer
+
+This library just extends `spring-security-oauth2-autoconfigure` to covert Cognito custom claims into standard Spring claims. Refer to https://docs.spring.io/spring-security-oauth2-boot/docs/current-SNAPSHOT/reference/htmlsingle/#boot-features-security-oauth2-resource-server and just use `CognitoResourceServerConfigurerAdapter` instead of `ResourceServerConfigurerAdapter`
+
 # pom.xml
 
 ```xml
